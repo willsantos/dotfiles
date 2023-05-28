@@ -8,4 +8,6 @@ scoop install main/git
 & .\programs\browsers.ps1
 & .\programs\media.ps1
 & .\programs\dev.ps1
+& .\programs\utils.ps1
+& .\programs\av.ps1
 & .\programs\games.ps1
