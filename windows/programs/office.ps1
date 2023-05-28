@@ -8,4 +8,4 @@ scoop bucket add extras
 scoop install extras/powertoys
 scoop install nonportable/office-365-apps-np
 scoop install extras/toggl
-winget install -e --id AgileBits.1Password --silent --accept-package-agreements
+winget install AgileBits.1Password --silent --accept-package-agreements
