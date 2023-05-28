@@ -1,7 +1,7 @@
 # Author: Wilson Santos
 # configuration of the system
 # 1 - Update PowerShell
-winget install Microsoft.Powershell --silent --accept-package-agreements accept-source-agreements
+winget install Microsoft.Powershell --silent --accept-package-agreements --accept-source-agreements
 # 2 - Install Scoop.sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
