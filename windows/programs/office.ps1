@@ -1,5 +1,11 @@
 # Office
-winget install Microsoft.PowerToys --silent --accept-package-agreements
-winget install Microsoft.Office --silent --accept-package-agreements
+
+# Add scoop bucket
+scoop bucket add nonportable
+scoop bucket add extras
+
+# Install apps
+scoop install extras/powertoys
+scoop install nonportable/office-365-apps-np
+scoop install extras/toggl
 winget install -e --id AgileBits.1Password --silent --accept-package-agreements
-winget install Toggl.TogglTrack --silent --accept-package-agreements
