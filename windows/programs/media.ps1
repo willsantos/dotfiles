@@ -1,7 +1,15 @@
 # Media programs
-winget install VideoLAN.VLC --silent --accept-package-agreements
-winget install WhatsApp.WhatsApp.Beta --silent --accept-package-agreements
-winget install Telegram.TelegramDesktop --silent --accept-package-agreements
-winget install Discord.Discord --silent --accept-package-agreements
-winget install Spotify.Spotify --silent --accept-package-agreements
-winget install -e --id Zoom.Zoom --silent --accept-package-agreements
+
+# Add scoop bucket
+scoop bucket add extras
+scoop bucket add versions
+scoop bucket add sysinternals
+
+# Install apps
+scoop install extras/vlc
+scoop install versions/whatsapp-beta
+scoop install extras/telegram
+scoop install extras/discord
+scoop install extras/spotify
+scoop install extras/zoom
+scoop install sysinternals/zoomit
