@@ -1,7 +1,7 @@
 # DEV programs
 # Add scoop bucket
 scoop bucket add extras
-
+# Install Apps
 scoop install extras/vscode
 scoop install extras/insomnia
 scoop install extras/postman
@@ -10,6 +10,7 @@ scoop install extras/dbeaver
 scoop install main/nvm
 scoop install extras/rider
 scoop install extras/datagrip
+scoop install extras/gitkraken
 
 winget install Microsoft.VisualStudio.2022.Professional --silent --accept-package-agreements
 
