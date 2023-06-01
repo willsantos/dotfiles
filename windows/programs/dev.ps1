@@ -15,3 +15,7 @@ scoop install extras/gitkraken
 winget install Microsoft.VisualStudio.2022.Professional --silent --accept-package-agreements
 
 winget install JanDeDobbeleer.OhMyPosh -s winget --silent --accept-package-agreements
+
+winget install Microsoft.DotNet.SDK.6 --silent --accept-package-agreements
+
+winget install Microsoft.DotNet.SDK.7 --silent --accept-package-agreements
