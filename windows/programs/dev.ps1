@@ -12,7 +12,7 @@ scoop install extras/rider
 scoop install extras/datagrip
 scoop install extras/gitkraken
 
-winget install Microsoft.VisualStudio.2022.Professional --silent --accept-package-agreements
+winget install Microsoft.VisualStudio.2022.Community --silent --accept-package-agreements
 
 winget install JanDeDobbeleer.OhMyPosh -s winget --silent --accept-package-agreements
 
