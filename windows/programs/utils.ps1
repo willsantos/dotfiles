@@ -6,7 +6,6 @@ scoop bucket add nonportable
 scoop bucket add sysinternals
 
 # Install apps
-scoop install extras/flow-launcher
 
 scoop install extras/cpu-z
 scoop install extras/ditto
