@@ -5,9 +5,11 @@ winget install Microsoft.Powershell --silent --accept-package-agreements --accep
 # 2 - Install Scoop.sh
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
-# 3 - Install WSL
+# 3 - Install Git
+winget install --id Git.Git -e --source winget --silent
+# 4 - Install WSL
 winget install -e --id Canonical.Ubuntu.2204 --silent
-# 4 - Instalar os programas por categorias
+# 5 - Instalar os programas por categorias
 & .\programs\programs.ps1
 
 
