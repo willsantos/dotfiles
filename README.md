@@ -1,5 +1,8 @@
 # dotfiles
 
+## Não esquecer:
+- Fazer backup do powertoys
+
 ## Extensões do VS 
 - Fine Code Coverage
 - Discord RPC
@@ -11,3 +14,4 @@
 - Darcula Theme
 - Selection and TODO Highlighter
 - Auto surround
+
