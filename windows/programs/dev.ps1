@@ -17,4 +17,4 @@ winget install JanDeDobbeleer.OhMyPosh -s winget --silent --accept-package-agree
 
 winget install Microsoft.DotNet.SDK.6 --silent --accept-package-agreements
 
-winget install Microsoft.DotNet.SDK.7 --silent --accept-package-agreements
+winget install Microsoft.DotNet.SDK.8 --silent --accept-package-agreements
