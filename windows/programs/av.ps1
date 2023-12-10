@@ -5,3 +5,4 @@ scoop bucket add extras
 scoop install extras/audacity
 scoop install extras/handbrake
 scoop install extras/mp3tag
+winget install SteelSeries.SteelSeriesGG
