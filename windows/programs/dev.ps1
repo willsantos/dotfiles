@@ -8,6 +8,7 @@ scoop install extras/jetbrains-toolbox
 scoop install extras/dbeaver
 scoop install main/nvm
 scoop install extras/gitkraken
+scoop install extras/azuredatastudio
 
 winget install Microsoft.VisualStudio.2022.Community --silent --accept-package-agreements
 
