@@ -16,3 +16,5 @@ scoop install extras/hwmonitor
 scoop install extras/rufus
 scoop install extras/sublime-text
 scoop install sysinternals/zoomit
+winget install --id=Rainmeter.Rainmeter -e
+winget install --id=rocksdanister.LivelyWallpaper -e
