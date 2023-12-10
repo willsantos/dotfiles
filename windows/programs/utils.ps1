@@ -19,3 +19,6 @@ scoop install extras/sublime-text
 scoop install sysinternals/zoomit
 winget install --id=Rainmeter.Rainmeter -e
 winget install --id=rocksdanister.LivelyWallpaper -e
+winget install --id=Radmin.VPN -e 
+winget install --id=LogMeIn.Hamachi -e 
+winget install --id=NordSecurity.NordVPN -e 
